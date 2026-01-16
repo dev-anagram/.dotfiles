@@ -1,0 +1,66 @@
+{
+    "git_panel": {
+        "dock": "left",
+    },
+    "agent": {
+        "dock": "left",
+        "default_profile": "ask",
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-5-mini",
+        },
+        "favorite_models": [],
+        "model_parameters": [],
+    },
+    "ui_font_family": "JetBrainsMono NF",
+    "buffer_font_family": "JetBrainsMono NF",
+    "vim_mode": true,
+    "icon_theme": "Catppuccin Mocha",
+    "ui_font_size": 18,
+    "buffer_font_size": 18.0,
+    "theme": {
+        "mode": "dark",
+        "light": "Catppuccin Latte",
+        "dark": "Catppuccin Mocha",
+    },
+    "relative_line_numbers": "enabled",
+    "tab_size": 4,
+    "title_bar": {
+        "show_onboarding_banner": false,
+        "show_project_items": false,
+        "show_branch_name": false,
+        "show_user_menu": false,
+    },
+    "toolbar": {
+        "quick_actions": true,
+    },
+    "project_panel": {
+        "dock": "left",
+        "default_width": 400,
+        "hide_root": true,
+        "auto_fold_dirs": false,
+        "sticky_scroll": false,
+        "scrollbar": {
+            "show": "never",
+        },
+        "indent_guides": {
+            "show": "never",
+        },
+        "indent_size": 30,
+    },
+    "outline_panel": {
+        "default_width": 300,
+        "indent_guides": {
+            "show": "never",
+        },
+    },
+    "scrollbar": {
+        "diagnostics": "all",
+    },
+    "diagnostics": {
+        "inline": {
+            "enabled": true,
+        },
+    },
+    "format_on_save": "on",
+}
